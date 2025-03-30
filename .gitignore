@@ -1,0 +1,50 @@
+# Ignore temp files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.vscode/
+.idea/
+.venv/
+venv/
+.log
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency files
+Pipfile.lock
+poetry.lock
+node_modules/
+
+# Ignore all JSON except specific ones (optional)
+*.json
+!config.json  # Uncomment if you want to keep a specific JSON file
